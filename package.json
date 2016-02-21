@@ -1,0 +1,36 @@
+{
+   "name": "jsdocgenTest",
+   "version": "0.0.0",
+   "description": "test project for jsdocgen",
+   "main": "index.js",
+   "scripts": {
+      "gulp": "gulp",
+      "lint": "gulp lint",
+      "test": "gulp test",
+      "coverage": "gulp coverage",
+      "watch": "gulp watch",
+      "docHelp": "jsdocgen",
+      "docClone": "jsdocgen clone",
+      "docGenerate": "jsdocgen generate",
+      "docPublish": "jsdocgen publish"
+   },
+   "homepage": "https://github.com/h2oboi89/jsdocgenTest",
+   "repository": {
+      "type": "git",
+      "url": "git@github.com:h2oboi89/jsdocgenTest.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "gulp": "^3.9.0",
+      "gulp-istanbul": "^0.10.2",
+      "gulp-jasmine": "^2.2.0",
+      "gulp-jshint": "^1.12.0",
+      "gulp-plumber": "^1.0.1",
+      "gulp-tap": "^0.1.3",
+      "gulp-watch": "^4.3.5",
+      "mach.js": "0.0.8",
+      "jsdocgen": "git+https://github.com/h2oboi89/jsdocgen.git"
+   },
+   "dependencies": {}
+}
