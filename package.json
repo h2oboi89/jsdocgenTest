@@ -30,7 +30,7 @@
       "gulp-tap": "^0.1.3",
       "gulp-watch": "^4.3.5",
       "mach.js": "0.0.8",
-      "jsdocgen": "git+https://github.com/h2oboi89/jsdocgen.git"
+      "jsdocgen": "^0.2.3"
    },
    "dependencies": {}
 }
